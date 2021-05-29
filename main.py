@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 
 if __name__ == '__main__':
-    doc_dir = 'doc/'
+    doc_dir = 'docs/'
 
     if not os.path.exists(doc_dir):
         os.mkdir(doc_dir)
