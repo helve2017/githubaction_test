@@ -1,10 +1,10 @@
 name: pytest
 
 # ワークフローをトリガーするGitHubイベント
-on:
-  schedule:
+#on:
+#  schedule:
     # 5分周期で実行
-    - cron: '*/5 * * * *'
+#    - cron: '*/5 * * * *'
 
 jobs:
   build:
